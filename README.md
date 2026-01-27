@@ -1,25 +1,36 @@
 # INVENTORY SENTINEL IT DOCUMENTAL 
 
-##DEMO
-![DEMOSentinelIT](https://github.com/user-attachments/assets/2f463838-8649-4d39-bc96-08488dabfc15)
-
-
 El proyecto **InventorySentinel-IT** es una aplicación web que permite gestionar y visualizar el inventario para el departamento de IT con diferentes componentes de una interfaz de usuario. Está diseñado para facilitar el tiempo del técnico usando React y TypeScript.
 
-## Instalación
+
+https://github.com/user-attachments/assets/b4f77d0b-fd70-4791-b1ea-10559cc07f0a
+
+## ⚙️ Instalación y uso
 
 Para instalar y ejecutar el proyecto, sigue estos pasos:
-
-*Clona el repositorio:
- bash
+**Clonar el repositorio**
+   ```bash
    git clone https://github.com/DekTool/InventorySentinel_IT.git
-cd InventorySentinel_IT
-npm install
-npm start
+     cd InventorySentinel_IT
+ ```
+## Instalar dependencias
+```bash
+  npm install
+   ```
+### Iniciar el servidor local
+```bash
+  npm start
+   ```
+### Compilar para producción
+```bash
+  npm run build
+   ```
 
-Funcionalidades Clave y su Uso Empresarial:
+---🧠 Autor DekTools
 
-Gestión de Inventario (/inventory):
+### Funcionalidades Clave y su Uso Empresarial:
+
+### Gestión de Inventario (/inventory):
 
 Registro Centralizado: La empresa puede registrar todos sus activos de TI (portátiles, móviles, monitores, periféricos, servidores, etc.) en un solo lugar.
 Seguimiento del Ciclo de Vida: Se puede rastrear el estado de cada activo: "En Stock", "Asignado", "Mantenimiento", "Retirado". Esto es crucial para saber cuándo reemplazar equipos, planificar compras o gestionar reparaciones.
@@ -56,8 +67,8 @@ Cumplimiento Normativo: Ayuda a gestionar las licencias de software correctament
 Optimización de Costos: Permite tomar decisiones informadas sobre compras, renovaciones y reutilización de equipos.
 Seguridad Mejorada: Documentar configuraciones clave y accesos ayuda a mantener la seguridad de los sistemas.
   
-##Contribuciones
+### Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir hablame. 
 
-##Licencia
+### Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
