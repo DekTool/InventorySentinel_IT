@@ -12,10 +12,10 @@ Para instalar y ejecutar el proyecto, sigue estos pasos:
 
 *Clona el repositorio:
  bash
-   git clone https://github.com/DekTool/InventorySentinel-IT.git
-   cd InventorySentinel-IT
-   npm install
-   npm start
+   git clone https://github.com/DekTool/InventorySentinel_IT.git
+cd InventorySentinel_IT
+npm install
+npm start
 
 Funcionalidades Clave y su Uso Empresarial:
 
