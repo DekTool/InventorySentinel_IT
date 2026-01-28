@@ -1,7 +1,6 @@
 # INVENTORY SENTINEL IT DOCUMENTAL 
 
-El proyecto **InventorySentinel-IT** es una aplicación web que permite gestionar y visualizar el inventario para el departamento de IT con diferentes componentes de una interfaz de usuario. Está diseñado para facilitar el tiempo del técnico usando React y TypeScript.
-
+El proyecto **InventorySentinel-IT** es una aplicación React + TypeScript. Puede ejecutarse en entorno local para desarrollo o desplegarse fácilmente en producción usando plataformas como Vercel o Netlify.
 
 https://github.com/user-attachments/assets/b4f77d0b-fd70-4791-b1ea-10559cc07f0a
 
@@ -11,24 +10,72 @@ Para instalar y ejecutar el proyecto, sigue estos pasos:
 **Clonar el repositorio**
    ```bash
    git clone https://github.com/DekTool/InventorySentinel_IT.git
-     cd InventorySentinel_IT
+   cd InventorySentinel_IT
+
  ```
 ## Instalar dependencias
 ```bash
   npm install
    ```
-### Iniciar el servidor local
+### Inicia el entorno de desarrollo
 ```bash
   npm start
    ```
+### La aplicación estará disponible en:
+```bash
+   http://localhost:3000
+```
 ### Compilar para producción
 ```bash
   npm run build
    ```
+Esto generará una carpeta llamada build/ con los archivos listos para ser desplegados en cualquier servidor web o plataforma de hosting
 
 ---🧠 Autor DekTools
+## ⚙️ Requisitos previos 
+
+Antes de comenzar, asegúrate de tener instalado:
+Node.js (versión 18 o superior recomendada)
+npm o yarn
+Una cuenta en GitHub
+(Opcional) Cuenta en Vercel o Netlify para despliegue
 
 ### Funcionalidades Clave y su Uso Empresarial:
+
+### ☁️Despliegue en Vercel (recomendado)
+
+Accede a https://vercel.com
+Inicia sesión con tu cuenta de GitHub
+Haz clic en “New Project”
+Selecciona el repositorio InventorySentinel_IT
+Configuración:
+Framework: React
+Build Command: npm run build
+Output Directory: build
+Pulsa Deploy
+Vercel detectará automáticamente la configuración y publicará la aplicación.
+
+### ☁️ Despliegue en Netlify
+
+Accede a https://www.netlify.com
+Conecta tu cuenta de GitHub
+Selecciona el repositorio
+Configuración:
+Build Command: npm run build
+Publish Directory: build
+Pulsa Deploy
+
+### ☁️ Despliegue en servidor propio (Nginx / Apache)
+
+Ejecuta el build:
+
+npm run build
+Copia el contenido de la carpeta build/ al servidor
+Configura el servidor web para servir archivos estáticos
+Ejemplo con Nginx:
+
+root /var/www/inventorysentinel/build;
+index index.html;
 
 ### Gestión de Inventario (/inventory):
 
